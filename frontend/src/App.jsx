@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <h1>Hola Mundo Full Stack</h1>
+      <h1>Hola Mundo OTRA</h1>
 
       <button onClick={buscarTodos}>
         Mostrar todos los mensajes
