@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
 
-from database import engine
 import models
+from database import engine
 
 app = FastAPI()
 
